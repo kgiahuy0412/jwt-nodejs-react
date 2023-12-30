@@ -1,0 +1,24 @@
+{
+  "name": "hiworld",
+  "version": "1.0.0",
+  "description": "hiworld node js react",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/sever.js"
+  },
+  "author": "Gia Huy IT",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.23.7",
+    "@babel/node": "7.22.19",
+    "@babel/preset-env": "7.23.7",
+    "body-parser": "1.20.2",
+    "dotenv": "16.3.1",
+    "ejs": "3.1.9",
+    "express": "4.18.2",
+    "install": "0.13.0",
+    "nodemon": "3.0.2",
+    "npm": "10.2.5"
+  }
+}
