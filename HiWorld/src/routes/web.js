@@ -12,7 +12,7 @@ const route = express.Router();
 const initWebRoutes = (app) => {
     route.get("/", homeController.handleHelloWorld);
     route.get("/user", homeController.handleUserPage);
-
+    route.post("/users/create-user", homeController.handleCreateNewUser);
     return app.use("/", route);
 
 }
